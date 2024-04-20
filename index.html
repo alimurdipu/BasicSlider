@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-500">
+    <main class="max-w-7xl mx-auto flex justify-center items-center h-screen">
+        <img class="w-10 rotate-180 cursor-pointer left" src="assets/images/rightarrow.png" alt="">
+        <!-- frame -->
+        <div class="w-[800px] h-[500px] shadow-lg shadow-red-500 overflow-hidden">
+            <!-- Slider -->
+            <div class="flex slider transition-all ease-in-out duration-1000">
+                <img class="w-full h-full image" src="/assets/images/img2.jpg" alt="">
+                <img class="w-full h-full image" src="/assets/images/img1.jpg" alt="">
+                <img class="w-full h-full image" src="/assets/images/img3.jpg" alt="">
+                <img class="w-full h-full image" src="/assets/images/img4.jpg" alt="">
+            </div>
+            <!-- Slider end -->
+        </div>
+        <!-- frame end -->
+        <img class="w-10 cursor-pointer right" src="assets/images/rightarrow.png" alt="">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
